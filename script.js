@@ -41,7 +41,7 @@ const displayTasks = () => {
 
     let editButton = document.createElement("button");
     editButton.classList.add("edit");
-    editButton.innerHTML.add = `<ion-icon name="create"></ion-icon>`;
+    editButton.innerHTML = `<ion-icon name="create"></ion-icon>`;
     if (!JSON.parse(value)) {
       editButton.style.visibility = "visible";
     } else {
